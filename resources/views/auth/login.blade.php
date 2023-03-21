@@ -157,15 +157,15 @@
             <h6 class="mb-20">Community</h6>
             <ul class="menu-footer">
               <li><a href="#">Feature</a></li>
-              <li><a href="#">FAQ</a></li>
+              <li><a href="{{route('privacy')}}">FAQ</a></li>
             </ul>
           </div>
           <div class="footer-col-4 col-md-4 col-xs-6">
             <h6 class="mb-20">More</h6>
             <ul class="menu-footer">
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Help</a></li>
-              <li><a href="#">Terms</a></li>
+              <li><a href="{{route('privacy')}}">Privacy</a></li>
+              <li><a href="{{route('privacy')}}">Help</a></li>
+              <li><a href="{{route('privacy')}}">Terms</a></li>
           
             </ul>
           </div>
@@ -175,7 +175,7 @@
           <div class="row">
             <div class="col-md-6"><span class="font-xs color-text-paragraph">Copyright &copy; {{\Carbon\Carbon::now()->format('Y')}}. {{env('app_name')}}</span></div>
             <div class="col-md-6 text-md-end text-start">
-              <div class="footer-social"><a class="font-xs color-text-paragraph" href="#">Privacy Policy</a><a class="font-xs color-text-paragraph mr-30 ml-30" href="#">Terms &amp; Conditions</a><a class="font-xs color-text-paragraph" href="#">Security</a></div>
+              <div class="footer-social"><a class="font-xs color-text-paragraph" href="{{route('privacy')}}">Privacy Policy</a><a class="font-xs color-text-paragraph mr-30 ml-30" href="#">Terms &amp; Conditions</a><a class="font-xs color-text-paragraph" href="#">Security</a></div>
             </div>
           </div>
         </div>

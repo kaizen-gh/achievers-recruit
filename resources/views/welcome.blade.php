@@ -417,12 +417,30 @@
         </div>
       </div>
     </div> 
-  </section>     
-
-   
-      
-
-      <section id="gettingStarted" class="section-box mt-70 mb-40">
+  </section>
+  <section class="section-box mt-0 mb-10 bg-border-3 pt-50 pb-50">
+        <div class="container">
+          <div class="row">
+           
+            <div class="col-lg-6">
+              <div class="pl-30">
+                <h5 class="color-brand-2 mb-15 mt-15">Welcome to</h5>
+                <h2 class="color-brand-1 mt-0 mb-15">Achievers Recruitment Limited</h2>
+                <p class="font-lg color-text-paragraph-2">
+                Achievers Recruitment is a recruitment agency specialising in recruiting and supplying highly trained nurses and healthcare assistants on a temporary basis. 
+        </p><br>
+        <p  class="font-lg color-text-paragraph-2">This is done in nursing homes, residential homes, and private hospitals across the United Kingdom. 
+              </p><br>
+              <p  class="font-lg color-text-paragraph-2">
+              We prioritise in ensuring our staff are trained to share the value of providing person-centred care to our client. 
+                </p><br>
+              </div>
+            </div>
+            <div class="col-lg-6"><img class="bdrd-10" src="{{asset('imgs/page/whoweare.jpg')}}" alt="Achievers Recruitment Limited"></div>
+          </div>
+        </div>
+      </section>   
+      <section id="gettingStarted" class="section-box mt-40 mb-40">
         <div class="container">
           <div class="text-start">
             <h2  class="section-title mb-10 wow animate__animated animate__fadeInUp text-center">How It Works</h2>
@@ -455,16 +473,23 @@
       <section class="section-box mt-50 mb-30 bg-border-3 pt-100 pb-100">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6"><img class="bdrd-10" src="{{asset('imgs/page/homepage5/img-profile.png')}}" alt="Achievers Recruitment Limited"></div>
+            <div class="col-lg-6"><img class="bdrd-10" src="{{asset('imgs/page/homepage6.jpg')}}" alt="Achievers Recruitment Limited"></div>
             <div class="col-lg-6">
               <div class="pl-30">
                 <h5 class="color-brand-2 mb-15 mt-15">Submit CV/Resume</h5>
                 <h2 class="color-brand-1 mt-0 mb-15">Submit your resume to get started</h2>
-                <p class="font-lg color-text-paragraph-2">
-                Achievers Recruitment is a recruitment agency specialising in recruiting and supplying highly trained nurses and healthcare assistants on a temporary basis. 
-              This is done in nursing homes, residential homes, and private hospitals across the United Kingdom. 
-              We prioritise in ensuring our staff are trained to share the value of providing person-centred care to our client. 
-                </p>
+                <p class="font-md color-text-paragraph mt-20">
+                      We recruit highly skilled nursing staff at Achievers Recruitment Ltd. 
+                    </p>
+                    <p class="font-md color-text-paragraph mt-20">Our company values our staff and supports their professional development. 
+                      You can trust our dedicated team to find the right role for you. 
+                    </p>
+                    <p class="font-md color-text-paragraph mt-20">
+                      For RGNs, RMNs, RNLDs, Care Assistants and Support Workers looking for flexible hours. 
+                      If you are searching for a temporary position, using our expert recruitment consultants will make your journey seamless and effortless. 
+                      Request an application from our friendly recruitment team.
+                    </p>
+              
                 <div class="mt-20"><a class="btn btn-default" href="{{route('register')}}">Upload CV/Resume</a></div>
               </div>
             </div>
@@ -495,15 +520,15 @@
             <h6 class="mb-20">Community</h6>
             <ul class="menu-footer">
               <li><a href="#">Feature</a></li>
-              <li><a href="#">FAQ</a></li>
+              <li><a href="{{route('privacy')}}">FAQ</a></li>
             </ul>
           </div>
           <div class="footer-col-4 col-md-4 col-xs-6">
             <h6 class="mb-20">More</h6>
             <ul class="menu-footer">
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Help</a></li>
-              <li><a href="#">Terms</a></li>
+              <li><a href="{{route('privacy')}}">Privacy</a></li>
+              <li><a href="{{route('privacy')}}">Help</a></li>
+              <li><a href="{{route('privacy')}}">Terms</a></li>
           
             </ul>
           </div>
@@ -513,7 +538,7 @@
           <div class="row">
             <div class="col-md-6"><span class="font-xs color-text-paragraph">Copyright &copy; {{\Carbon\Carbon::now()->format('Y')}}. {{env('app_name')}}</span></div>
             <div class="col-md-6 text-md-end text-start">
-              <div class="footer-social"><a class="font-xs color-text-paragraph" href="#">Privacy Policy</a><a class="font-xs color-text-paragraph mr-30 ml-30" href="#">Terms &amp; Conditions</a><a class="font-xs color-text-paragraph" href="#">Security</a></div>
+              <div class="footer-social"><a class="font-xs color-text-paragraph" href="{{route('privacy')}}">Privacy Policy</a><a class="font-xs color-text-paragraph mr-30 ml-30" href="#">Terms &amp; Conditions</a><a class="font-xs color-text-paragraph" href="#">Security</a></div>
             </div>
           </div>
         </div>

@@ -12,9 +12,17 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
 use Illuminate\View\View;
+use Response;
+use Storage;
 
 class ApplicantsController extends Controller
 {
+
+    public function privacy()
+    {
+        return response()->file(storage_path('app/public/PrivacyNotice.pdf'));
+    }
+
 
     public function dashboard(){
         $role=auth()->user()->user_role;

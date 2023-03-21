@@ -33,7 +33,7 @@ Route::get('/about-us', function () {
 })->name('about-us');
 
 
-
+Route::get('privacy',[ApplicantsController::class,'privacy'])->name('privacy');
 
 Route::get('/contact-us', function () {
     return view('contact-us');

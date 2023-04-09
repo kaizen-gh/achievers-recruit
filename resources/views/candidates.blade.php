@@ -121,7 +121,7 @@
           <div class="container">
             <div class="text-center">
               <h6 class="f-18 color-text-mutted text-uppercase">Candidates</h6>
-              <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Information to Applicants / Candidates</h2>
+              <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Information to Candidates</h2>
               <p class="font-sm color-text-paragraph wow animate__animated animate__fadeInUp w-lg-50 mx-auto">&nbsp; </p>
             </div>
             <div class="row">
@@ -132,7 +132,24 @@
               <div class="col-lg-7 col-md-12 col-sm-12">
                 <!-- <h3 class="mt-15">What we do</h3> -->
                 <div class="mt-0">
+
+                <h6 >Candidates:</h6>
                 <p class="font-md color-text-paragraph ">
+                  Our staff are at the heart of our business, so all our staff are carefully selected and vetted to ensure that they share our vision and values as a company. We recruit nurses and health care assistants in Buckinghamshire, Northamptonshire, and Bedfordshire and beyond.
+                    We have a wide range of benefits available for our staff.
+                </p>
+                <h6 class="mt-20">Staff Benefits:</h6>
+                <ul class="ml-20"style="list-style-type:circle;font-weight:100">
+                  <li>Flexible working hours - day and night shifts available</li>
+                  <li>Competitive hourly rate</li>
+                  <li>Free uniform and badge</li>
+                  <li>Weekly payment</li>
+                  <li>Friendly and supportive management team available 24hrs.</li>
+                  <li>Different options available for staff to submit payment, email, screenshot and message across or post, whichever option is most convenient for our staff</li>
+                  <li>Free mandatory training and induction</li>
+                  <li>Progression plan for staff after probation and etc.</li>
+                </ul>
+              <!-- <p class="font-md color-text-paragraph ">
               Achievers Recruitment is a recruitment agency specialising in recruiting and supplying highly trained nurses and healthcare assistants on a temporary basis. 
               This is done in nursing homes, residential homes, and private hospitals across the United Kingdom. 
               We prioritise in ensuring our staff are trained to share the value of providing person-centred care to our client. 
@@ -151,7 +168,7 @@
                  <p class="font-md color-text-paragraph mt-20">To ensure that our staff are well-equipped with the necessary skills and knowledge, we have put in place comprehensive recruitment processes, including comprehensive background and reference checks. </p>
                 <p class="font-md color-text-paragraph mt-20">We also provide extensive training courses to ensure that our staff are up to date with the latest standards and practices in the industry. Furthermore, we conduct regular assessments to evaluate the efficacy of our staff's skills and knowledge, and we provide continuous feedback and training to ensure that our staff are always providing the highest quality of care.
                We are also constantly innovating our training programmes to ensure that our staff are kept up to date with the latest advances in the 
-              </p>
+              </p> -->
 
                 </div>
 
@@ -162,10 +179,13 @@
         </div>
 </section>
     </main>
-   <footer class="footer mt-50">
+   <footer class="footer mt-50 pt-50">
       <div class="container">
         <div class="row">
-          <div class="footer-col-1 col-md-3 col-sm-12"><a href="{{route('welcome')}}"><img alt="Achievers Recruitment" src="{{asset('imgs/template/achievers-logo.jpg')}}"></a>
+          <div class="footer-col-1 col-md-3 col-sm-12">
+          <h1>&nbsp;</h1>
+            <!-- <a href="{{route('welcome')}}">
+            <img alt="Achievers Recruitment Limited" src="{{asset('imgs/template/achievers-logo.jpg')}}"></a> -->
 
             <div class="footer-social text-center">
               <a class="icon-socials icon-facebook" href="{{env('facebook_url')}}"></a>
@@ -200,7 +220,7 @@
         </div>
         <div class="footer-bottom mt-50">
           <div class="row">
-            <div class="col-md-6"><span class="font-xs color-text-paragraph">Copyright &copy; {{\Carbon\Carbon::now()->format('Y')}}. {{env('app_name')}}</span></div>
+            <div class="col-md-6"><a class="font-xs color-text-paragraph">Copyright &copy; {{\Carbon\Carbon::now()->format('Y')}}. {{env('app_name')}}</a></div>
             <div class="col-md-6 text-md-end text-start">
               <div class="footer-social"><a class="font-xs color-text-paragraph" href="{{route('privacy')}}">Privacy Policy</a><a class="font-xs color-text-paragraph mr-30 ml-30" href="#">Terms &amp; Conditions</a><a class="font-xs color-text-paragraph" href="#">Security</a></div>
             </div>

@@ -150,10 +150,13 @@
         </div>
 </section>
     </main>
-   <footer class="footer mt-50">
+   <footer class="footer mt-50 pt-50">
       <div class="container">
         <div class="row">
-          <div class="footer-col-1 col-md-3 col-sm-12"><a href="{{route('welcome')}}"><img alt="Achievers Recruitment Limited" src="{{asset('imgs/template/achievers-logo.jpg')}}"></a>
+          <div class="footer-col-1 col-md-3 col-sm-12">
+            <h1>&nbsp;</h1>
+            <!-- <a href="{{route('welcome')}}">
+            <img alt="Achievers Recruitment Limited" src="{{asset('imgs/template/achievers-logo.jpg')}}"></a> -->
 
             <div class="footer-social text-center">
               <a class="icon-socials icon-facebook" href="{{env('facebook_url')}}"></a>
@@ -188,7 +191,7 @@
         </div>
         <div class="footer-bottom mt-50">
           <div class="row">
-            <div class="col-md-6"><span class="font-xs color-text-paragraph">Copyright &copy; {{\Carbon\Carbon::now()->format('Y')}}. {{env('app_name')}}</span></div>
+            <div class="col-md-6"><a class="font-xs color-text-paragraph">Copyright &copy; {{\Carbon\Carbon::now()->format('Y')}}. {{env('app_name')}}</a></div>
             <div class="col-md-6 text-md-end text-start">
               <div class="footer-social"><a class="font-xs color-text-paragraph" href="{{route('privacy')}}">Privacy Policy</a><a class="font-xs color-text-paragraph mr-30 ml-30" href="#">Terms &amp; Conditions</a><a class="font-xs color-text-paragraph" href="#">Security</a></div>
             </div>

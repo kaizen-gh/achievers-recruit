@@ -121,7 +121,7 @@
           <div class="container">
             <div class="text-center">
               <h6 class="f-18 color-text-mutted text-uppercase">Clients</h6>
-              <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Information to Recruiters / Clients</h2>
+              <!-- <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Information to Clients</h2> -->
               <p class="font-sm color-text-paragraph wow animate__animated animate__fadeInUp w-lg-50 mx-auto">&nbsp; </p>
             </div>
             <div class="row">
@@ -130,9 +130,20 @@
             <div class="row mt-70">
               <div class="col-lg-5 col-md-12 col-sm-12"><img src="{{asset('imgs/page/agency.jpg')}}" alt="{{env('app_name')}}"></div>
               <div class="col-lg-7 col-md-12 col-sm-12">
-                <!-- <h3 class="mt-15">What we do</h3> -->
-                <div class="mt-0">
-                <p class="font-md color-text-paragraph ">
+                 <h3 class="mt-15">Information to clients</h3>
+                <div class="mt-10">
+
+                <p class="font-md color-text-paragraph mt-20 ">
+
+
+                  At Achievers Recruitment Ltd we understand how imperative it is to recruit the right staff for your residential and nursing home. We are committed to finding you the right health care assistants and nurses to support your homes long- and short-term.
+                  Our staff have been carefully selected and have undergone a vigorous vetting process to ensure we recruit the most qualified candidates.
+                </p>
+                <h6 class="mt-20"> Areas we cover:</h6>
+                <p class="font-md color-text-paragraph ">                
+We are based in Milton Keynes Buckinghamshire, but provide services to Bedfordshire, Northamptonshire, and Buckinghamshire and beyond.
+</p>
+                <!-- <p class="font-md color-text-paragraph ">
               Achievers Recruitment is a recruitment agency specialising in recruiting and supplying highly trained nurses and healthcare assistants on a temporary basis. 
               This is done in nursing homes, residential homes, and private hospitals across the United Kingdom. 
               We prioritise in ensuring our staff are trained to share the value of providing person-centred care to our client. 
@@ -152,7 +163,7 @@
                     </p>
                     <p class="font-md color-text-paragraph mt-20">
                     As a practice, we are passionate about ensuring that our staff and services meet the highest standards of patient 
-                    </p>
+                    </p> -->
                 </div>
 
               
@@ -162,10 +173,14 @@
         </div>
 </section>
     </main>
-   <footer class="footer mt-50">
+   <footer class="footer mt-50 pt-50">
       <div class="container">
         <div class="row">
-          <div class="footer-col-1 col-md-3 col-sm-12"><a href="{{route('welcome')}}"><img alt="Achievers Recruitment Limited" src="{{asset('imgs/template/achievers-logo.jpg')}}"></a>
+          <div class="footer-col-1 col-md-3 col-sm-12">
+            
+          <h1>&nbsp;</h1>
+            <!-- <a href="{{route('welcome')}}">
+            <img alt="Achievers Recruitment Limited" src="{{asset('imgs/template/achievers-logo.jpg')}}"></a> -->
 
             <div class="footer-social text-center">
               <a class="icon-socials icon-facebook" href="{{env('facebook_url')}}"></a>
@@ -200,7 +215,7 @@
         </div>
         <div class="footer-bottom mt-50">
           <div class="row">
-            <div class="col-md-6"><span class="font-xs color-text-paragraph">Copyright &copy; {{\Carbon\Carbon::now()->format('Y')}}. {{env('app_name')}}</span></div>
+            <div class="col-md-6"><a class="font-xs color-text-paragraph">Copyright &copy; {{\Carbon\Carbon::now()->format('Y')}}. {{env('app_name')}}</a></div>
             <div class="col-md-6 text-md-end text-start">
               <div class="footer-social"><a class="font-xs color-text-paragraph" href="{{route('privacy')}}">Privacy Policy</a><a class="font-xs color-text-paragraph mr-30 ml-30" href="#">Terms &amp; Conditions</a><a class="font-xs color-text-paragraph" href="#">Security</a></div>
             </div>

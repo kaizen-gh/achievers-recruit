@@ -287,6 +287,15 @@ p {
   float: right;
 }
 
+.footer{
+background-color: royalblue;
+/*background-color: #8bacd9; */
+}
+
+.footer h6, .footer a{
+  color:#fff
+}
+
 .capitalize {
   text-transform: capitalize;
 }
@@ -3823,13 +3832,13 @@ ul li:last-child .card-list-4 {
   margin-bottom: 4px;
 }
 .footer .menu-footer li a {
-  color: #4F5E64;
+  color: #fff;
   font-size: 14px;
   text-decoration: none;
   transition-duration: 0.2s;
 }
 .footer .menu-footer li a:hover {
-  color: #05264E;
+  color: #3286e0;
   transition-duration: 0.2s;
   padding-left: 3px;
 }
@@ -3859,7 +3868,7 @@ ul li:last-child .card-list-4 {
 .footer .footer-bottom {
   border-top: 1px solid #E0E6F7;
   padding: 30px 0px;
-  color: #4F5E64;
+  color: #fff;
   font-size: 14px;
 }
 .footer .footer-bottom strong {
@@ -3867,7 +3876,8 @@ ul li:last-child .card-list-4 {
   font-weight: bold;
 }
 .footer .footer-bottom a {
-  text-decoration: none;
+  text-decoration: #fff;
+  color:#fff;
 }
 
 #scrollUp {
